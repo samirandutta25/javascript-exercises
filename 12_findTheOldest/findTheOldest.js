@@ -1,4 +1,4 @@
-const currentYear = 2025;
+const currentYear = new Date().getFullYear();
 
 const findTheOldest = function( people ) {
     return people.reduce( ( total, curr ) =>{
